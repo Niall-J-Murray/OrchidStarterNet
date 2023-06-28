@@ -6,6 +6,6 @@
 #    that is where we will look for package.json/.nvmrc/etc not repo root!
 
 [build]
-  base    = ""
-  publish = "build/docs/orchid"
-  command = "./gradlew orchidBuild -Penv=prod"
+base = ""
+publish = "build/docs/orchid"
+command = "./gradlew orchidBuild -Penv=prod"
